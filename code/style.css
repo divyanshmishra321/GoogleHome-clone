@@ -1,0 +1,173 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #202124;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.parent {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.maintext {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  height: 30vh;
+  font-size: 5rem;
+  color: white;
+}
+
+.btn {
+  background-color: #303134;
+  border: transparent;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border: 1px solid gray;
+  /* padding: 12px; */
+  width: 40vw;
+  border-radius: 50px;
+  margin: 10px 0;
+}
+
+.searchbar input {
+  width: 90%;
+  background-color: transparent;
+  padding: 10px;
+  border: transparent;
+  height: 100%;
+  border-radius: 50px;
+  outline: none;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.navimg {
+  /* width: 2vw; */
+  height: 4vh;
+  /* margin: 5px 10px; */
+  filter: invert(70%);
+}
+
+a {
+  color: white;
+  font-size: small;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.nav_links {
+  /* margin: 0px 10px; */
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.searchimg {
+  /* width: 2vw; */
+  height: 4vh;
+  padding: 0 10px;
+}
+
+#searchbutton {
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.footer2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* height: 45px; */
+  padding: 12px 10px;
+
+  background-color: #171717;
+  border-top: 2px solid #303134;
+}
+.footer1 {
+  /* height: 45px; */
+  padding: 10px 20px;
+
+  background-color: #171717;
+  border-top: #414244;
+}
+
+.rightfoot .leftfoot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightfoot  a{
+    color: white;
+ font-weight: 100;
+ margin: 0 10px;
+}
+.leftfoot  a{
+    color: white;
+ font-weight: 100;
+ margin: 0 10px;
+ 
+}
+
+.footer {
+  padding-top: 170px;
+  /* height: 40vh; */
+}
+
+.sectionmid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.midlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: white;
+}
+
+.midlinks a{
+    color: rgb(80, 43, 226);
+    text-decoration: none;
+    color: ;
+}
+
+.midlinks a:hover{
+    text-decoration: underline;
+}
+
